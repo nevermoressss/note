@@ -61,11 +61,6 @@ func makeslice(et *_type, len, cap int) unsafe.Pointer {
 	//overflow 溢出 
 	// mem > maxAlloc 申请的内容大于最大可申请的内存
 	if overflow || mem > maxAlloc || len < 0 || len > cap {
-		// NOTE: Produce a 'len out of range' error instead of a
-		// 'cap out of range' error when someone does make([]T, bignumber).
-		// 'cap out of range' is true too, but since the cap is only being
-		// supplied implicitly, saying len is clearer.
-		// See golang.org/issue/4085.
 		// 如果cap溢出 或者 大于最大可申请的内存，尝试用len计算
 		mem, overflow := math.MulUintptr(et.size, uintptr(len))
 		if overflow || mem > maxAlloc || len < 0 {
@@ -91,12 +86,12 @@ et 类型
 old 旧的切片
 cap 所需的最小容量
 func growslice(et *_type, old slice, cap int) slice {
-	// 看起来是一些调试的方法
+	// 开启了竞态检测
 	if raceenabled {
 		callerpc := getcallerpc()
 		racereadrangepc(old.array, uintptr(old.len*int(et.size)), callerpc, funcPC(growslice))
 	}
-	// 看起来是一些调试的方法
+	//是否开启了msan，探测是否读未初始化的内存
 	if msanenabled {
 		msanread(old.array, uintptr(old.len*int(et.size)))
 	}
@@ -199,5 +194,48 @@ func growslice(et *_type, old slice, cap int) slice {
     
 	return slice{p, old.len, newcap}
 }
+```
+slicecopy: 运行时拷贝切片
+```go
+toPtr 目标切片
+toLen 目标切片长度
+fmPtr 来源切片
+fmLen 来源切片长度
+width 单个元素的大小
+func slicecopy(toPtr unsafe.Pointer, toLen int, fmPtr unsafe.Pointer, fmLen int, width uintptr) int {
+	if fmLen == 0 || toLen == 0 {
+		return 0
+	}
 
+	n := fmLen
+	if toLen < n {
+		n = toLen
+	}
+
+	if width == 0 {
+		return n
+	}
+
+	if raceenabled {
+		callerpc := getcallerpc()
+		pc := funcPC(slicecopy)
+		racereadrangepc(fmPtr, uintptr(n*int(width)), callerpc, pc)
+		racewriterangepc(toPtr, uintptr(n*int(width)), callerpc, pc)
+	}
+	if msanenabled {
+		msanread(fmPtr, uintptr(n*int(width)))
+		msanwrite(toPtr, uintptr(n*int(width)))
+	}
+
+	size := uintptr(n) * width
+	// size 等于1指针
+	if size == 1 { // common case worth about 2x to do here
+		// TODO: is this still worth it with new memmove impl?
+		*(*byte)(toPtr) = *(*byte)(fmPtr) // known to be a byte pointer
+	} else {
+		// 整块内存拷贝
+		memmove(toPtr, fmPtr, size)
+	}
+	return n
+}
 ```
