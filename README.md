@@ -14,6 +14,12 @@ go 语音学习笔记 基于1.15   陆续更新中
 - [恐慌和恢复panic&recover]
 - [新建变量make和new]
 
+- [上线文context]
+- [同步相关sync]
+- [通道channel]
+- [调度器scheduler]
+- [网络轮询器io]
+
 - ✅[一些知识](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/some-knowledge)
 
 - ✅[简单实现orm](https://github.com/nevermoressss/studygo/blob/master/orm)  （来源网络,了解接口和反射的一些用法）
