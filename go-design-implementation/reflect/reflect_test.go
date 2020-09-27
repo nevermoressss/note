@@ -5,6 +5,14 @@ import (
 	"testing"
 )
 
+func TestInterface(t *testing.T) {
+	tp := reflect.TypeOf(&Student{})
+	t.Log(tp.Elem())
+	t.Log(tp)
+	v := reflect.ValueOf(Student{})
+	t.Log(v)
+}
+
 type Student struct {
 	Name  string
 	Age   int
