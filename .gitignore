@@ -1,0 +1,11 @@
+.idea
+./idea
+.idea/
+go.sum
+distribution-api
+go_build_distribution_api.exe
+config_local.yml
+./config_local.yml
+.config_local.yml
+.config_local.yml/
+.DS_Store
