@@ -1,4 +1,4 @@
-选择select
+#### 选择select
 ```text
 让 Goroutine 同时等待多个 Channel 的可读或者可写.
 在多个文件或者 Channel 发生状态改变之前，select 会一直阻塞当前线程或者 Goroutine。
