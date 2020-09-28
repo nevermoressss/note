@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b251e375-5df5-4b9d-b8ee-8f537dff92ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/data-structure/01-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/data-structure/01-array.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/data-structure/02-slice.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/data-structure/02-slice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/defer/defer.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/defer/defer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/select/select.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/select/select.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/some-knowledge/01-compilation-principle.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/some-knowledge/01-compilation-principle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go-design-implementation/some-knowledge/02-function.md" beforeDir="false" afterPath="$PROJECT_DIR$/go-design-implementation/some-knowledge/02-function.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-design-implementation/defer/panic&amp;recover.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +16,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/reflect/reflect.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="594">
-                <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <first_editor relative-caret-position="308">
+                <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,11 +28,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/select/select.md">
+        <entry file="file://$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <first_editor relative-caret-position="308">
+                <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -42,68 +40,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/some-knowledge/01-compilation-principle.md">
+        <entry file="file://$PROJECT_DIR$/go-design-implementation/defer/panic&amp;recover.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/some-knowledge/02-function.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="176">
-                <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/04-string.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1034">
-                <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/data-structure_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/02-slice.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/03-map.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <first_editor relative-caret-position="242">
+                <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,25 +52,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/defer/defer.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2222">
-                <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://D:/GO1.15/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="1092" column="41" lean-forward="true" selection-start-line="1092" selection-start-column="41" selection-end-line="1092" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-design-implementation/interface/interface.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://D:/GO1.15/src/runtime/malloc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="1194" column="13" selection-start-line="1194" selection-start-column="13" selection-end-line="1194" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/GO1.15/src/runtime/stubs.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/GO1.15/src/runtime/runtime2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="917" selection-start-line="917" selection-end-line="927" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,10 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rawmem</find>
-      <find>lenmem</find>
-      <find>slicecopy</find>
-      <find>width</find>
       <find>makemap</find>
       <find>sz</find>
       <find>dirtyalloc</find>
@@ -175,6 +124,10 @@
       <find>arg0</find>
       <find>deferprocStack</find>
       <find>argp</find>
+      <find>_panic</find>
+      <find>gopanic</find>
+      <find>gorecover</find>
+      <find>newobject</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -208,13 +161,18 @@
         <option value="$PROJECT_DIR$/go-design-implementation/reflect/reflect_test.go" />
         <option value="$PROJECT_DIR$/go-design-implementation/reflect/reflect.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/select/select.md.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/data-structure/01-array.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/data-structure/02-slice.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/select/select.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/some-knowledge/01-compilation-principle.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/some-knowledge/02-function.md" />
         <option value="$PROJECT_DIR$/go-design-implementation/defer/defer.md" />
+        <option value="$PROJECT_DIR$/go-design-implementation/defer/panic&amp;recover.md.go" />
+        <option value="$PROJECT_DIR$/go-design-implementation/defer/panic&amp;recover.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/go-design-implementation/make-and-new.go" />
+        <option value="$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.go" />
+        <option value="$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.md" />
       </list>
     </option>
   </component>
@@ -246,37 +204,29 @@
               <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="studygo" type="462c0819:PsiDirectoryNode" />
               <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="make-and-new" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studygo" type="462c0819:PsiDirectoryNode" />
-              <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="defer" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studygo" type="462c0819:PsiDirectoryNode" />
-              <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.15" type="20ee2d1f:SyntheticLibraryElementNode" />
             </path>
             <path>
               <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studygo" type="462c0819:PsiDirectoryNode" />
-              <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.15" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studygo" type="462c0819:PsiDirectoryNode" />
-              <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="select" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studygo" type="462c0819:PsiDirectoryNode" />
-              <item name="go-design-implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="some-knowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.15" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +349,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30392158" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.16993465" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -419,34 +369,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/GO1.15/src/runtime/mstats.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/slice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="273" column="71" lean-forward="true" selection-start-line="273" selection-start-column="71" selection-end-line="273" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/mbitmap.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="675" column="5" selection-start-line="675" selection-start-column="5" selection-end-line="675" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/race0.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/GO1.15/src/runtime/mheap.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -656,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/GO1.15/src/runtime/malloc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1087" column="39" selection-start-line="1087" selection-start-column="39" selection-end-line="1087" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/GO1.15/src/runtime/runtime1.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -674,37 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/stubs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="269" column="5" selection-start-line="269" selection-start-column="5" selection-end-line="269" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/runtime2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="887" column="4" selection-start-line="887" selection-start-column="4" selection-end-line="887" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/GO1.15/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="570" column="13" lean-forward="true" selection-start-line="570" selection-start-column="13" selection-end-line="570" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="462">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -725,33 +609,6 @@
             <caret column="5" selection-start-column="5" selection-end-column="5" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/03-map.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/04-string.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1034">
-            <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/data-structure_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -795,6 +652,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/defer/defer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/03-map.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/data-structure_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/data-structure/04-string.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1034">
+            <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/go-design-implementation/some-knowledge/02-function.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -805,13 +699,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-design-implementation/defer/defer.md">
+    <entry file="file://D:/GO1.15/src/runtime/runtime2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="917" selection-start-line="917" selection-end-line="927" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO1.15/src/runtime/stubs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/defer/panic&amp;recover.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2222">
-            <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/make-and-new.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-design-implementation/make-and-new/make&amp;new.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO1.15/src/runtime/malloc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="1194" column="13" selection-start-line="1194" selection-start-column="13" selection-end-line="1194" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO1.15/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="1092" column="41" lean-forward="true" selection-start-line="1092" selection-start-column="41" selection-end-line="1092" selection-end-column="41" />
         </state>
       </provider>
     </entry>

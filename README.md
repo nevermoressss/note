@@ -11,8 +11,8 @@ go 语音学习笔记 基于1.15   陆续更新中
 - ✅[反射reflect](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/reflect)
 - ✅[选择器select](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/select/select.md)
 - ✅[延迟执行defer](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/defer/defer.md)
-- [恐慌和恢复panic&recover]
-- [新建变量make和new]
+- ✅[恐慌和恢复panic&recover](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/defer/panic&recover.md)
+- ✅[新建变量make和new](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/make-and-new/make&new.md)
 
 - [上线文context]
 - [同步相关sync]
