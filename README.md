@@ -16,10 +16,13 @@ go 语音学习笔记 基于1.15
 
 - ✅[上线文context](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/01-context.md)
 - ✅[同步相关sync](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/02-sync.md)
-- [通道channel]
+- ✅[通道channel](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/03-channel.md)
+- [定时器timer]
 - [调度器scheduler]
 - [网络轮询器io]
 
 - ✅[一些知识](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/some-knowledge)
 
 - ✅[简单实现orm](https://github.com/nevermoressss/studygo/blob/master/orm)  （来源网络,了解接口和反射的一些用法）
+
+- ✅[bigcache分析](https://github.com/nevermoressss/studygo/blob/master/bigcache/bigcache.md)
