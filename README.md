@@ -1,5 +1,5 @@
 # studygo
-go 语音学习笔记 基于1.15   陆续更新中
+go 语音学习笔记 基于1.15  
 
 
 - ✅[数组array](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/01-array.md)
@@ -14,8 +14,8 @@ go 语音学习笔记 基于1.15   陆续更新中
 - ✅[恐慌和恢复panic&recover](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/defer/panic&recover.md)
 - ✅[新建变量make和new](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/make-and-new/make&new.md)
 
-- [上线文context]
-- [同步相关sync]
+- ✅[上线文context](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/01-context.md)
+- ✅[同步相关sync](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/02-sync.md)
 - [通道channel]
 - [调度器scheduler]
 - [网络轮询器io]
