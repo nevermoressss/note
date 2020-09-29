@@ -1,5 +1,5 @@
 # studygo
-go 语音学习笔记 基于1.15  
+## go 语言学习笔记 基于1.15  
 
 
 - ✅[数组array](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/01-array.md)
@@ -18,8 +18,9 @@ go 语音学习笔记 基于1.15
 - ✅[同步相关sync](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/02-sync.md)
 - ✅[通道channel](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/03-channel.md)
 - [定时器timer]
-- [调度器scheduler]
-- [网络轮询器io]
+- [调度器scheduler](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/04-scheduler.md)
+- [网络轮询器io](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/programming/05-network-poller.md)
+- [系统监控]
 
 - ✅[一些知识](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/some-knowledge)
 
