@@ -12,3 +12,13 @@ func TestDataStructure(t *testing.T) {
 	bys[0] = 66
 	t.Log(s)
 }
+
+func TestBool(t *testing.T) {
+	var a bool
+	!a=returnBoool()
+	t.Log(a)
+}
+
+func returnBoool() bool {
+	return true
+}
