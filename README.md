@@ -1,6 +1,7 @@
 # studygo
-## go 语言学习笔记 基于1.15  
+## go 语言学习笔记
 
+- ✅[etcd 笔记](https://github.com/nevermoressss/studygo/blob/master/etcd/README.md)
 
 - ✅[数组array](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/01-array.md)
 - ✅[切片slice](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/02-slice.md)
