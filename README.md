@@ -1,7 +1,8 @@
-# studygo
-## go 语言学习笔记
+## 学习笔记
 
-- ✅[etcd 笔记](https://github.com/nevermoressss/studygo/blob/master/etcd/README.md)
+- ✅[etcd 笔记（进行中）](https://github.com/nevermoressss/studygo/blob/master/etcd/README.md)
+
+- ✅[一些思维导图](https://github.com/nevermoressss/studygo/blob/master/xmind)
 
 - ✅[数组array](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/01-array.md)
 - ✅[切片slice](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/data-structure/02-slice.md)
