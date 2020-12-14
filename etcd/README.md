@@ -1,4 +1,4 @@
-# ectd
+# ectd（未完成）
 ## etcd 源码学习笔记
 - ✅[raft和config](https://github.com/nevermoressss/studygo/blob/master/etcd/raft&config.md)
 
