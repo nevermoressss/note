@@ -11,3 +11,5 @@
 - ✅[bigcache分析](https://github.com/nevermoressss/studygo/blob/master/bigcache/bigcache.md)
 
 - ✅[一些基础算法](https://github.com/nevermoressss/studygo/blob/master/algorithm)
+
+- ✅[mongodb分片副本集对profile的影响](https://github.com/nevermoressss/studygo/blob/master/mongodb/shard&rs&Profile.md)
