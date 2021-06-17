@@ -1,6 +1,5 @@
 
 ![服务图](https://github.com/nevermoressss/studygo/blob/master/pic/trace/1.png)
-林杰峰(jiefeng.ljf) > 链路追踪 > image2021-6-16 19:40:37.png
 分布式系统中，一个请求往往需要调用多个服务，调用多次存储系统才能完成。在这一些列的调用中，有并行的有串行的，在这种情况下我们如何才能确定整个请求链路中调用了什么模块，每个模块的耗时是多少，当需要排查问题时如何快速的定位问题？
 
 
@@ -40,6 +39,7 @@ Annotation  用来及时记录一个事件的存在，一些核心 Annotation �
 
 jaeger VS zipkin
 zipkin
+
 ![zipkin](https://github.com/nevermoressss/studygo/blob/master/pic/trace/zipkin.png)
 
 Twitter
@@ -51,6 +51,7 @@ Zipkin的架构中包含Reporter，Transport，Colletor，Storage，API，UI几�
 其中Reporter集成在每个服务的代码中，负责Span的生成，带内数据(traceid等)的传递，带外数据(span)的上报，采样控制。Transport部分为带外数据上报的通道，zipkin支持http和kafka两种方式。Colletor负责接收带外数据，并插入到集中存储中。Storage为存储组件，适配底层的存储系统，zipkin提供默认的in-memory存储，并支持Mysql，Cassandra，ElasticSearch存储系统。API提供查询、分析和上报链路的接口。接口的定义见zipkin-api。UI用于展示页面展示。
 
 jaeger
+
 ![jaeger](https://github.com/nevermoressss/studygo/blob/master/pic/trace/jaeger.png)
 Uber
 
