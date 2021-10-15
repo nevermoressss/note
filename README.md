@@ -1,6 +1,6 @@
 ## 学习笔记
 
-- ✅[etcd 笔记](https://github.com/nevermoressss/studygo/blob/master/etcd/README.md)
+- [etcd 笔记](https://github.com/nevermoressss/studygo/blob/master/etcd/README.md)
 
 - ✅[golang学习笔记](https://github.com/nevermoressss/studygo/blob/master/go-design-implementation/README.md)
 
