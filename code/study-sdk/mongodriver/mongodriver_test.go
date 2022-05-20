@@ -32,6 +32,6 @@ func TestMongo(t *testing.T) {
 		{Key: "title", Value: "The Polyglot Developer Podcast"},
 		{Key: "author", Value: "Nic Raboy"},
 	})
-	t.Log(one,err)
+	t.Log(one, err)
 	defer client.Disconnect(ctx)
 }

@@ -12,7 +12,6 @@ type User struct {
 	UpdatedAt time.Time `json:"updated_at"` // 更新时间
 }
 
-
 func NewUser(ID int64, age int64, firstName string, lastName string, email string, createdAt time.Time, updatedAt time.Time) *User {
 	return &User{ID: ID, Age: age, FirstName: firstName, LastName: lastName, Email: email, CreatedAt: createdAt, UpdatedAt: updatedAt}
 }

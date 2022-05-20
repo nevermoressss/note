@@ -278,7 +278,6 @@ func where(eq bool, w interface{}) (string, error) {
 	return strings.Join(wheres, " and "), nil
 }
 
-
 func sK(v reflect.Value) []string {
 	var keys []string
 	t := v.Type()

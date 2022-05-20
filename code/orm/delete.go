@@ -25,4 +25,3 @@ func (q *Query) Delete() (int64, error) {
 	}
 	return result.RowsAffected()
 }
-
