@@ -21,3 +21,5 @@
 - ✅[redis 笔记](https://github.com/nevermoressss/studygo/blob/master/redis)
 
 - ✅[trace 链路追踪](https://github.com/nevermoressss/studygo/blob/master/some-note/trace.md)
+
+- ✅[杂七乱八](./杂七乱八)
