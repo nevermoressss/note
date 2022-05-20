@@ -15,8 +15,8 @@ func TestAlignUp(t *testing.T) {
 		want int
 	}{
 		{
-			name:"test",
-			args:args{
+			name: "test",
+			args: args{
 				824633917248,
 				1024,
 			},

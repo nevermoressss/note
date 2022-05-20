@@ -7,7 +7,7 @@ func BenchmarkNoSentinel(b *testing.B) {
 	for i := 1; i < 10000; i++ {
 		list = append(list, i)
 	}
-	key:=5000
+	key := 5000
 	for i := 0; i < b.N; i++ {
 		news := list
 		noSentinel(news, key)
@@ -19,7 +19,7 @@ func BenchmarkSentinel(b *testing.B) {
 	for i := 1; i < 10000; i++ {
 		list = append(list, i)
 	}
-	key:=5000
+	key := 5000
 	for i := 0; i < b.N; i++ {
 		news := list
 		sentinel(news, key)

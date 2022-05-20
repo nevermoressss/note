@@ -6,7 +6,6 @@ import (
 	"log"
 	"reflect"
 	"strings"
-	"time"
 )
 
 //Insert in can be *User, []*User, map[string]interface{}

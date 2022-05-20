@@ -21,7 +21,6 @@ type Query struct {
 	errs   []string
 }
 
-
 func Connect(dsn string) (*sql.DB, error) {
 	conn, err := sql.Open("mysql", dsn)
 	if err != nil {
@@ -42,8 +41,6 @@ func Table(db *sql.DB, tableName string) func() *Query {
 		}
 	}
 }
-
-
 
 func sKV(v reflect.Value) ([]string, []string) {
 	var keys, values []string
