@@ -1,9 +1,3 @@
-/*
-@Time : 2020/11/13 下午2:28
-@Author : kevin.dww
-@File : deep_cpoy.go
-@Description: 基于json序列化和反序列化实现的对象深拷贝
-*/
 package reflect_utils
 
 import (
