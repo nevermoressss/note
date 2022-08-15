@@ -23,3 +23,5 @@
 - ✅[trace 链路追踪](./some-note/trace.md)
 
 - ✅[杂七乱八](./杂七乱八)
+
+- ✅[阅读计划](./read-plan)
