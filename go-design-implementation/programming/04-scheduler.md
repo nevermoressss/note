@@ -18,20 +18,20 @@
 时间过长的垃圾回收（Stop-the-world，STW）会导致程序长时间无法工作；
 
 ##### 抢占式调度器 · 1.2 ~ 至今
-###### 基于协作的抢占式调度器 - 1.2 ~ 1.13
+##### #基于协作的抢占式调度器 - 1.2 ~ 1.13
 
 通过编译器在函数调用时插入抢占检查指令，在函数调用时检查当前 Goroutine 是否发起了抢占请求，实现基于协作的抢占式调度
 ；
 Goroutine 可能会因为垃圾回收和循环长时间占用资源导致程序暂停；
 
-###### 基于信号的抢占式调度器 - 1.14 ~ 至今
+##### #基于信号的抢占式调度器 - 1.14 ~ 至今
 实现基于信号的真抢占式调度；
 
 垃圾回收在扫描栈时会触发抢占调度；
 
 抢占的时间点不够多，还不能覆盖全部的边缘情况；
 
-###### 非均匀存储访问调度器 · 提案
+##### #非均匀存储访问调度器 · 提案
 对运行时的各种资源进行分区；
 
 实现非常复杂，到今天还没有提上日程；
@@ -148,7 +148,7 @@ type schedt struct {
 }
 ```
 
-###### runtime.newproc1 获取 Goroutine 结构体的三种方法
+##### #runtime.newproc1 获取 Goroutine 结构体的三种方法
 
 1 当处理器的 Goroutine 列表为空时，会将调度器持有的空闲 Goroutine 转移到当前处理器上，直到 gFree 列表中的 Goroutine 数量达到 32；
 
@@ -157,7 +157,7 @@ type schedt struct {
 3 当调度器的 gFree 和处理器的 gFree 列表都不存在结构体时，运行时会调用 runtime.malg 初始化一个新的 runtime.g 结构体，如果申请的堆栈大小大于 0，在这里我们会通过 runtime.stackalloc 分配 1KB 的栈空间：
 
 总结：runtime.newproc1 会从处理器或者调度器的缓存中获取新的结构体，也可以调用 runtime.malg 函数创建新的结构体。
-###### 运行队列
+##### #运行队列
 
 runtime.runqput 函数会将新创建的 Goroutine 运行队列上，这既可能是全局的运行队列，也可能是处理器本地的运行队列
 
@@ -210,7 +210,7 @@ func schedule() {
  ...
 }
 ```
-###### 调度时间点
+##### #调度时间点
     1 主动挂起 — runtime.gopark -> runtime.park_m
     2 系统调用 — runtime.exitsyscall -> runtime.exitsyscall0
     3 协作式调度 — runtime.Gosched -> runtime.gosched_m -> runtime.goschedImpl

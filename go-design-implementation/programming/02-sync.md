@@ -140,7 +140,7 @@ func (m *Mutex) Unlock() {
 	}
 }
 ```
-#### RWMutex
+####RWMutex
 ```go
 type RWMutex struct {
 	w           Mutex   // 复用mutex
@@ -203,7 +203,7 @@ func (rw *RWMutex) RUnlock() {
 	}
 }
 ```
-#### WaitGroup
+####WaitGroup
 ```go
 type WaitGroup struct {
 	// 不能通过再拷贝的方式赋值
@@ -276,7 +276,7 @@ func (wg *WaitGroup) Wait() {
 	}
 }
 ```
-#### Once
+####Once
 保证在 Go 程序运行期间的某段代码只会执行一次。
 ```go
 type Once struct {
@@ -304,7 +304,7 @@ func (o *Once) doSlow(f func()) {
 	}
 }
 ```
-#### Once.Cond()
+####Once.Cond()
 让一系列的 Goroutine 都在满足特定条件时被唤醒。
 ```go
 type Cond struct {
